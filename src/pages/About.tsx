@@ -1,0 +1,186 @@
+
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
+import SectionHeading from '@/components/ui/SectionHeading';
+import CallToAction from '@/components/ui/CallToAction';
+
+const About = () => {
+  return (
+    <>
+      <Navbar />
+      <main>
+        {/* Hero Section */}
+        <section className="bg-primary-800 py-20 text-white">
+          <div className="max-container">
+            <div className="max-w-3xl">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                Our Story
+              </h1>
+              <p className="text-xl text-white/90">
+                Learn about our mission to transform inventory management and point-of-sale operations for businesses worldwide.
+              </p>
+            </div>
+          </div>
+        </section>
+        
+        {/* Mission Section */}
+        <section className="bg-white">
+          <div className="max-container">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <img
+                  src="/placeholder.svg"
+                  alt="Masashi POS Team"
+                  className="rounded-lg shadow-lg w-full h-auto"
+                />
+              </div>
+              
+              <div>
+                <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
+                <p className="text-gray-600 mb-6">
+                  At Masashi POS, we're dedicated to empowering businesses with smart, user-friendly inventory and point-of-sale solutions. Our mission is to simplify complex operations and help businesses of all sizes thrive in today's competitive market.
+                </p>
+                <p className="text-gray-600 mb-6">
+                  Founded in 2015, we started with a simple idea: inventory management shouldn't be complicated or time-consuming. Since then, we've expanded our offerings to create a comprehensive suite of tools that seamlessly integrate with your existing business processes.
+                </p>
+                <div className="grid grid-cols-2 gap-6 mt-8">
+                  <div>
+                    <h4 className="font-semibold text-xl mb-2">300+</h4>
+                    <p className="text-gray-600">Business Clients</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-xl mb-2">25+</h4>
+                    <p className="text-gray-600">Countries Served</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-xl mb-2">98%</h4>
+                    <p className="text-gray-600">Client Satisfaction</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-xl mb-2">24/7</h4>
+                    <p className="text-gray-600">Customer Support</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* Values Section */}
+        <section className="bg-gray-50">
+          <div className="max-container">
+            <SectionHeading 
+              title="Our Core Values"
+              subtitle="These principles guide everything we do, from product development to customer service."
+              centered
+            />
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {[
+                {
+                  title: "Innovation",
+                  description: "We constantly push boundaries to develop cutting-edge solutions that solve real business challenges.",
+                  icon: (
+                    <svg className="h-12 w-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                  )
+                },
+                {
+                  title: "Reliability",
+                  description: "Our systems are built for maximum uptime and dependability, because we know your business can't afford downtime.",
+                  icon: (
+                    <svg className="h-12 w-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  )
+                },
+                {
+                  title: "Customer Focus",
+                  description: "We listen to our clients and design solutions based on their real-world needs and feedback.",
+                  icon: (
+                    <svg className="h-12 w-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                  )
+                }
+              ].map((value, index) => (
+                <div key={index} className="bg-white p-8 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-6">
+                    {value.icon}
+                  </div>
+                  <h3 className="text-xl font-semibold mb-3">{value.title}</h3>
+                  <p className="text-gray-600">{value.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        
+        {/* Team Section */}
+        <section className="bg-white">
+          <div className="max-container">
+            <SectionHeading 
+              title="Meet Our Leadership Team"
+              subtitle="The experienced professionals driving innovation at Masashi POS."
+              centered
+            />
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {[
+                {
+                  name: "Alex Morgan",
+                  position: "CEO & Founder",
+                  bio: "15+ years experience in software development and business management.",
+                  image: "/placeholder.svg"
+                },
+                {
+                  name: "Sarah Lee",
+                  position: "Chief Technology Officer",
+                  bio: "Former senior engineer at top tech firms with expertise in cloud infrastructure.",
+                  image: "/placeholder.svg"
+                },
+                {
+                  name: "David Chen",
+                  position: "Head of Product",
+                  bio: "Product management veteran with a passion for user experience design.",
+                  image: "/placeholder.svg"
+                },
+                {
+                  name: "Maya Patel",
+                  position: "Customer Success Director",
+                  bio: "Dedicated to ensuring clients get the most value from Masashi POS products.",
+                  image: "/placeholder.svg"
+                }
+              ].map((member, index) => (
+                <div key={index} className="bg-white rounded-lg overflow-hidden text-center card-hover">
+                  <img 
+                    src={member.image} 
+                    alt={member.name} 
+                    className="w-full h-64 object-cover object-center"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
+                    <p className="text-orange-500 font-medium mb-3">{member.position}</p>
+                    <p className="text-gray-600">{member.bio}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        
+        <CallToAction 
+          title="Join Our Growing Team"
+          description="We're always looking for talented individuals who are passionate about technology and customer success."
+          primaryButtonText="View Careers"
+          primaryButtonLink="/contact"
+          bgColor="bg-orange-500"
+        />
+      </main>
+      <Footer />
+    </>
+  );
+};
+
+export default About;
