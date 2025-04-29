@@ -1,7 +1,6 @@
 
 import HeroSection from '@/components/home/HeroSection';
 import FeaturesSection from '@/components/home/FeaturesSection';
-import TestimonialsSection from '@/components/home/TestimonialsSection';
 import CallToAction from '@/components/ui/CallToAction';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -19,7 +18,7 @@ const Index = () => {
         <FeaturesSection />
         
         {/* Industries Section */}
-        <section className="bg-white">
+        <section className="bg-white py-16">
           <div className="max-container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
@@ -97,8 +96,6 @@ const Index = () => {
             </div>
           </div>
         </section>
-        
-        <TestimonialsSection />
         
         <CallToAction 
           title="Ready to Transform Your Business?"
