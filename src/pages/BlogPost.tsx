@@ -13,7 +13,7 @@ const blogPosts = [
     date: "Apr 15, 2023",
     author: "Alex Johnson",
     readTime: "5 min read",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
     categories: ["Inventory", "Optimization"],
     content: `
       <p class="mb-4">Effective inventory management is crucial for businesses of all sizes. When done right, it can significantly reduce costs, improve cash flow, and enhance customer satisfaction. Here are five key strategies to optimize your inventory management:</p>
@@ -35,6 +35,11 @@ const blogPosts = [
       <p class="mb-4">An efficient warehouse layout can dramatically improve picking times and reduce errors. Store fast-moving items in easily accessible locations, group related items together, and ensure clear labeling and organization throughout the facility.</p>
       
       <p class="mt-8 mb-4">Implementing these five strategies can help businesses optimize their inventory management processes, leading to reduced costs, improved efficiency, and enhanced customer satisfaction. The key is to regularly review and refine your approach based on changing business needs and market conditions.</p>
+      
+      <div class="mt-8 mb-8">
+        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Organized warehouse inventory" class="rounded-lg shadow-md w-full">
+        <p class="text-sm text-gray-500 mt-2 text-center">An optimized warehouse layout improves efficiency and reduces errors</p>
+      </div>
     `
   },
   {
@@ -43,13 +48,18 @@ const blogPosts = [
     date: "Mar 22, 2023",
     author: "Sarah Miller",
     readTime: "4 min read",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1556742205-e10c9486e506?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
     categories: ["POS", "Technology"],
     content: `
       <p class="mb-4">Point-of-sale (POS) systems have evolved significantly over the past decade, transforming from simple cash registers to sophisticated business management tools. As technology continues to advance, POS systems are set to become even more integral to business operations. Let's explore the emerging trends that will shape the future of POS technology.</p>
       
       <h2 class="text-2xl font-bold mt-8 mb-4">Cloud-Based POS Solutions</h2>
       <p class="mb-4">Cloud-based POS systems are becoming increasingly popular as they offer flexibility, scalability, and remote access capabilities. These systems store data securely in the cloud, allowing business owners to access their information from anywhere with an internet connection. This trend will continue to grow as businesses seek more agile solutions that can adapt to changing needs.</p>
+      
+      <div class="mt-8 mb-8">
+        <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Modern cloud-based POS system in action" class="rounded-lg shadow-md w-full">
+        <p class="text-sm text-gray-500 mt-2 text-center">Cloud-based POS systems offer flexibility and remote access capabilities</p>
+      </div>
       
       <h2 class="text-2xl font-bold mt-8 mb-4">Mobile POS Integration</h2>
       <p class="mb-4">Mobile POS systems are transforming how businesses interact with customers by enabling transactions to take place anywhere in the store or even outside traditional retail environments. This mobility enhances the customer experience by reducing wait times and creating more personalized interactions.</p>

@@ -7,7 +7,7 @@ import BlogCard from "@/components/ui/BlogCard";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 
-// Sample blog data
+// Sample blog data with updated images
 const blogPosts = [
   {
     id: "1",
@@ -16,7 +16,7 @@ const blogPosts = [
     date: "Apr 15, 2023",
     author: "Alex Johnson",
     readTime: "5 min read",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
     categories: ["Inventory", "Optimization"]
   },
   {
@@ -26,7 +26,7 @@ const blogPosts = [
     date: "Mar 22, 2023",
     author: "Sarah Miller",
     readTime: "4 min read",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1556742205-e10c9486e506?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
     categories: ["POS", "Technology"]
   },
   {
@@ -36,7 +36,7 @@ const blogPosts = [
     date: "Feb 10, 2023",
     author: "David Chen",
     readTime: "7 min read",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
     categories: ["Cloud", "ROI"]
   },
   {
@@ -46,7 +46,7 @@ const blogPosts = [
     date: "Jan 05, 2023",
     author: "Maya Patel",
     readTime: "6 min read",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1549517045-bc93de075e53?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
     categories: ["Case Study", "Retail"]
   },
   {
@@ -56,7 +56,7 @@ const blogPosts = [
     date: "Dec 12, 2022",
     author: "Alex Johnson",
     readTime: "4 min read",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
     categories: ["Reports", "Analytics"]
   },
   {
@@ -66,7 +66,7 @@ const blogPosts = [
     date: "Nov 18, 2022",
     author: "Sarah Miller",
     readTime: "8 min read",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
     categories: ["Barcodes", "Setup"]
   }
 ];

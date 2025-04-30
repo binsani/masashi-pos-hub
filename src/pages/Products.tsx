@@ -60,7 +60,7 @@ const Products = () => {
       id: "retail",
       name: "Retail",
       description: "Streamline operations for retail stores with fast checkout, inventory tracking, and customer management.",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
       features: [
         "Barcode scanning & label printing",
         "Customer loyalty programs",
@@ -72,7 +72,7 @@ const Products = () => {
       id: "pharmacy",
       name: "Pharmacy",
       description: "Specialized solutions for pharmacies with medication tracking, prescription management, and regulatory compliance.",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
       features: [
         "Prescription tracking system",
         "Medication expiration monitoring",
@@ -84,7 +84,7 @@ const Products = () => {
       id: "supermarket",
       name: "Supermarket",
       description: "Handle high-volume inventory and fast-paced checkout for supermarkets and grocery stores.",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1604719312566-8912e9c8a47a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
       features: [
         "Scale integration",
         "Fresh produce management",
@@ -96,7 +96,7 @@ const Products = () => {
       id: "warehouse",
       name: "Warehouse",
       description: "Advanced inventory management for warehouses with picking, packing, and shipping integration.",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
       features: [
         "Bin & shelf location tracking",
         "Barcode & RFID integration",
@@ -150,7 +150,7 @@ const Products = () => {
               
               <div className="rounded-lg overflow-hidden shadow-xl border border-gray-200">
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
                   alt="Masashi POS Dashboard" 
                   className="w-full h-auto"
                 />

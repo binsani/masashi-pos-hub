@@ -57,7 +57,12 @@ const Contact = () => {
       <Navbar />
       <main>
         {/* Hero Section */}
-        <section className="bg-primary-800 py-20 text-white">
+        <section 
+          className="bg-primary-800 py-20 text-white bg-cover bg-center" 
+          style={{ 
+            backgroundImage: 'linear-gradient(rgba(0, 24, 57, 0.8), rgba(0, 24, 57, 0.9)), url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80)'
+          }}
+        >
           <div className="max-container">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -120,6 +125,14 @@ const Contact = () => {
                           9:00 AM - 6:00 PM
                         </p>
                       </div>
+                    </div>
+                    
+                    <div className="mt-8">
+                      <img 
+                        src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
+                        alt="Our office environment" 
+                        className="rounded-lg shadow-md w-full h-auto"
+                      />
                     </div>
                   </div>
                 </div>
@@ -225,14 +238,17 @@ const Contact = () => {
         {/* Map Section */}
         <section className="bg-white pt-0">
           <div className="max-w-full">
-            <div className="h-96 w-full bg-gray-200">
-              {/* In a real implementation, you'd embed a Google Maps iframe here */}
-              <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                <div className="text-gray-500">
-                  <MapPin className="h-12 w-12 mx-auto mb-4" />
-                  <p className="text-lg font-medium">Google Map would be embedded here</p>
-                </div>
-              </div>
+            <div className="h-96 w-full bg-gray-200 relative overflow-hidden">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991641383408!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjEiTiA3NMKwMDAnMjEuNiJX!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen 
+                loading="lazy"
+                title="Office Location"
+                aria-hidden="false"
+              ></iframe>
             </div>
           </div>
         </section>

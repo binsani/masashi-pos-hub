@@ -29,8 +29,8 @@ const About = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/placeholder.svg"
-                  alt="Masashi POS Team"
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+                  alt="Our team collaborating on inventory solutions"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
               </div>
@@ -132,25 +132,25 @@ const About = () => {
                   name: "Alex Morgan",
                   position: "CEO & Founder",
                   bio: "15+ years experience in software development and business management.",
-                  image: "/placeholder.svg"
+                  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 },
                 {
                   name: "Sarah Lee",
                   position: "Chief Technology Officer",
                   bio: "Former senior engineer at top tech firms with expertise in cloud infrastructure.",
-                  image: "/placeholder.svg"
+                  image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 },
                 {
                   name: "David Chen",
                   position: "Head of Product",
                   bio: "Product management veteran with a passion for user experience design.",
-                  image: "/placeholder.svg"
+                  image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 },
                 {
                   name: "Maya Patel",
                   position: "Customer Success Director",
                   bio: "Dedicated to ensuring clients get the most value from Masashi POS products.",
-                  image: "/placeholder.svg"
+                  image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 }
               ].map((member, index) => (
                 <div key={index} className="bg-white rounded-lg overflow-hidden text-center card-hover">

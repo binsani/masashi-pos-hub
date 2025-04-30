@@ -23,7 +23,7 @@ const CaseStudies = () => {
       ],
       quote: "Masashi POS has revolutionized how we manage inventory. Stock discrepancies are now a thing of the past.",
       author: "Sarah Johnson, Operations Manager",
-      image: "/placeholder.svg"
+      image: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
     },
     {
       title: "Wellness Pharmacy Improves Customer Experience",
@@ -39,7 +39,7 @@ const CaseStudies = () => {
       ],
       quote: "The multi-store sync feature has been a game-changer for our pharmacy chain. We can now easily transfer products between locations.",
       author: "Michael Chen, Owner",
-      image: "/placeholder.svg"
+      image: "https://images.unsplash.com/photo-1576602976047-174e57a47881?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
     },
     {
       title: "Fresh Market Supermarket Reduces Waste by 30%",
@@ -55,7 +55,7 @@ const CaseStudies = () => {
       ],
       quote: "Implementation was seamless, and the support team has been exceptional. Our checkout process is now twice as fast.",
       author: "Emma Rodriguez, General Manager",
-      image: "/placeholder.svg"
+      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
     }
   ];
 
@@ -114,7 +114,7 @@ const CaseStudies = () => {
               <div className="space-y-6">
                 <div className="rounded-lg overflow-hidden shadow-xl">
                   <img 
-                    src="/placeholder.svg" 
+                    src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
                     alt="Thompson Electronics Store" 
                     className="w-full h-auto"
                   />
@@ -131,7 +131,7 @@ const CaseStudies = () => {
                   </div>
                   <div className="flex items-center">
                     <img 
-                      src="/placeholder.svg" 
+                      src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" 
                       alt="David Thompson" 
                       className="w-10 h-10 rounded-full object-cover mr-3"
                     />
