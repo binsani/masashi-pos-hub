@@ -70,15 +70,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-orange-400 mt-1 mr-3" />
-                <span className="text-gray-300">123 Business Avenue, Tech District, City, 10001</span>
+                <span className="text-gray-300">No 11 Shuaibu Gani Street, Gwarinpa, Abuja, Nigeria</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-orange-400 mr-3" />
-                <a href="tel:+1234567890" className="text-gray-300 hover:text-orange-400 transition-colors">+1 (234) 567-890</a>
+                <a href="tel:+2347077217173" className="text-gray-300 hover:text-orange-400 transition-colors">+234 707 721 7173</a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-orange-400 mr-3" />
-                <a href="mailto:info@masashi-pos.com" className="text-gray-300 hover:text-orange-400 transition-colors">info@masashi-pos.com</a>
+                <a href="mailto:support@masashipos.com.ng" className="text-gray-300 hover:text-orange-400 transition-colors">support@masashipos.com.ng</a>
               </li>
             </ul>
           </div>

@@ -16,7 +16,7 @@ const NotFound = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="text-center max-w-md mx-auto p-6">
         <img 
-          src="https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+          src="/lovable-uploads/2ecd2c25-348a-4490-aa52-2984886833e5.png" 
           alt="404 Not Found" 
           className="w-64 h-64 mx-auto mb-6 rounded-lg shadow-lg object-cover"
         />

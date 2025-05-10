@@ -89,9 +89,9 @@ const Contact = () => {
                       <div>
                         <h3 className="font-medium text-lg">Visit Us</h3>
                         <p className="text-gray-600">
-                          123 Business Avenue<br />
-                          Tech District, City<br />
-                          10001
+                          No 11 Shuaibu Gani Street<br />
+                          Gwarinpa, Abuja<br />
+                          Nigeria
                         </p>
                       </div>
                     </div>
@@ -100,8 +100,8 @@ const Contact = () => {
                       <Mail className="h-6 w-6 text-orange-500 mr-4 mt-1" />
                       <div>
                         <h3 className="font-medium text-lg">Email Us</h3>
-                        <a href="mailto:info@masashi-pos.com" className="text-gray-600 hover:text-orange-500 transition-colors">
-                          info@masashi-pos.com
+                        <a href="mailto:support@masashipos.com.ng" className="text-gray-600 hover:text-orange-500 transition-colors">
+                          support@masashipos.com.ng
                         </a>
                       </div>
                     </div>
@@ -110,8 +110,8 @@ const Contact = () => {
                       <Phone className="h-6 w-6 text-orange-500 mr-4 mt-1" />
                       <div>
                         <h3 className="font-medium text-lg">Call Us</h3>
-                        <a href="tel:+1234567890" className="text-gray-600 hover:text-orange-500 transition-colors">
-                          +1 (234) 567-890
+                        <a href="tel:+2347077217173" className="text-gray-600 hover:text-orange-500 transition-colors">
+                          +234 707 721 7173
                         </a>
                       </div>
                     </div>
@@ -129,8 +129,8 @@ const Contact = () => {
                     
                     <div className="mt-8">
                       <img 
-                        src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
-                        alt="Our office environment" 
+                        src="/lovable-uploads/96ab36ed-301f-45b1-bee9-5d8d9742c160.png" 
+                        alt="POS System Features" 
                         className="rounded-lg shadow-md w-full h-auto"
                       />
                     </div>
@@ -230,23 +230,32 @@ const Contact = () => {
                     </Button>
                   </form>
                 </div>
+                
+                {/* New POS Dashboard Image */}
+                <div className="mt-8">
+                  <img 
+                    src="/lovable-uploads/2ecd2c25-348a-4490-aa52-2984886833e5.png" 
+                    alt="Masashi POS Dashboard" 
+                    className="rounded-lg shadow-md w-full h-auto"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </section>
         
         {/* Map Section */}
-        <section className="bg-white pt-0">
+        <section className="bg-white pt-12">
           <div className="max-w-full">
             <div className="h-96 w-full bg-gray-200 relative overflow-hidden">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991641383408!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjEiTiA3NMKwMDAnMjEuNiJX!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.0887316284344!2d7.406341!3d9.105391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e745528ce9ddd%3A0x6e7d7cc4e59bba84!2sGwarinpa%20Estate%2C%20Abuja!5e0!3m2!1sen!2sng!4v1683891234!5m2!1sen!2sng" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
                 allowFullScreen 
                 loading="lazy"
-                title="Office Location"
+                title="Masashi POS Office Location"
                 aria-hidden="false"
               ></iframe>
             </div>
