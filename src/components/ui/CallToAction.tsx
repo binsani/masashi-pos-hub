@@ -25,7 +25,7 @@ const CallToAction = ({
   bgColor = "bg-primary-800" 
 }: CallToActionProps) => {
   return (
-    <section className={cn(bgColor, "py-16", className)}>
+    <section className={cn(bgColor, "py-16 relative", className)}>
       <div className="max-container text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">{title}</h2>
         {description && (
@@ -35,7 +35,7 @@ const CallToAction = ({
           <Button 
             asChild 
             size="lg" 
-            className="bg-orange-500 hover:bg-orange-600 text-white px-8"
+            className="bg-orange-500 hover:bg-orange-600 text-white px-8 shadow-md"
           >
             <Link to={primaryButtonLink}>{primaryButtonText}</Link>
           </Button>
@@ -45,7 +45,7 @@ const CallToAction = ({
               asChild 
               variant="outline" 
               size="lg" 
-              className="border-white text-white hover:bg-white/10"
+              className="border-2 border-white text-white hover:bg-white/10 shadow-md"
             >
               <Link to={secondaryButtonLink}>{secondaryButtonText}</Link>
             </Button>
