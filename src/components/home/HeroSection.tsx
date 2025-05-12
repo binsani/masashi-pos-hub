@@ -19,7 +19,7 @@ const HeroSection = () => {
               Masashi POS helps businesses streamline their inventory and point-of-sale operations.
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
-              <Button asChild size={isMobile ? "default" : "lg"} className="bg-orange-500 hover:bg-orange-600 text-white shadow-lg">
+              <Button asChild size={isMobile ? "default" : "lg"} className="bg-orange-500 hover:bg-orange-600 text-white shadow-lg border-2 border-orange-400">
                 <Link to="/contact">Request Demo</Link>
               </Button>
               <Button asChild variant="outline" size={isMobile ? "default" : "lg"} className="border-2 border-white text-white hover:bg-white/10 shadow-lg">
