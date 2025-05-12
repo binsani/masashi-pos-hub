@@ -117,59 +117,6 @@ const About = () => {
           </div>
         </section>
         
-        {/* Team Section */}
-        <section className="bg-white">
-          <div className="max-container">
-            <SectionHeading 
-              title="Meet Our Leadership Team"
-              subtitle="The experienced professionals driving innovation at Masashi POS."
-              centered
-            />
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                {
-                  name: "Alex Morgan",
-                  position: "CEO & Founder",
-                  bio: "15+ years experience in software development and business management.",
-                  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                },
-                {
-                  name: "Sarah Lee",
-                  position: "Chief Technology Officer",
-                  bio: "Former senior engineer at top tech firms with expertise in cloud infrastructure.",
-                  image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                },
-                {
-                  name: "David Chen",
-                  position: "Head of Product",
-                  bio: "Product management veteran with a passion for user experience design.",
-                  image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                },
-                {
-                  name: "Maya Patel",
-                  position: "Customer Success Director",
-                  bio: "Dedicated to ensuring clients get the most value from Masashi POS products.",
-                  image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                }
-              ].map((member, index) => (
-                <div key={index} className="bg-white rounded-lg overflow-hidden text-center card-hover">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    className="w-full h-64 object-cover object-center"
-                  />
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
-                    <p className="text-orange-500 font-medium mb-3">{member.position}</p>
-                    <p className="text-gray-600">{member.bio}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-        
         <CallToAction 
           title="Join Our Growing Team"
           description="We're always looking for talented individuals who are passionate about technology and customer success."
