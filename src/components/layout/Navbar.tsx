@@ -25,7 +25,11 @@ const Navbar = () => {
       <div className="max-container py-4 flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold text-primary-800">Masashi<span className="text-orange-500">POS</span></span>
+            <img 
+              src="/lovable-uploads/dbab37a9-b6db-428e-9c33-eb6e53c8899d.png" 
+              alt="Masashi POS Logo" 
+              className="h-12 w-auto" 
+            />
           </Link>
         </div>
 
