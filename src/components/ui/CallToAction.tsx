@@ -38,7 +38,7 @@ const CallToAction = ({
           <Button 
             asChild 
             size={isMobile ? "default" : "lg"}
-            className="bg-orange-500 hover:bg-orange-600 text-white px-6 md:px-8 shadow-md border-2 border-orange-400"
+            className="bg-orange-500 hover:bg-orange-600 text-white px-6 md:px-8 shadow-lg border-2 border-orange-400"
           >
             <Link to={primaryButtonLink}>{primaryButtonText}</Link>
           </Button>
@@ -48,7 +48,7 @@ const CallToAction = ({
               asChild 
               variant="outline" 
               size={isMobile ? "default" : "lg"}
-              className="border-3 border-white text-white hover:bg-white/10 shadow-md"
+              className="border-3 border-white text-white hover:bg-white/10 shadow-lg bg-transparent"
             >
               <Link to={secondaryButtonLink}>{secondaryButtonText}</Link>
             </Button>
